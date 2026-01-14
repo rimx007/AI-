@@ -1,0 +1,29 @@
+version: "3.9"
+services:
+  dashboard:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    environment:
+      - MLFLOW_TRACKING_URI=mlruns
+    depends_on:
+      - redis
+
+  api:
+    build: .
+    command: ["uvicorn", "src.api.api:app", "--host", "0.0.0.0", "--port", "8000"]
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+
+  # TODO: Add Prometheus+Grafana for monitoring in production.

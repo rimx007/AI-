@@ -1,0 +1,86 @@
+2026-01-13 23:41:54 | INFO | src.data.data_quality | Removed duplicates: 202561 -> 24666
+2026-01-13 23:42:13 | INFO | src.data.data_quality | Removed duplicates: 0 -> 0
+2026-01-13 23:42:44 | INFO | src.data.data_quality | Removed duplicates: 15 -> 11
+2026-01-13 23:43:10 | INFO | src.data.data_quality | Removed duplicates: 15 -> 11
+2026-01-13 23:43:49 | WARNING | src.features.aspect_extraction | Embedding similarity disabled (missing sentence-transformers). Error=No module named 'sentence_transformers'
+2026-01-14 00:52:19 | INFO | src.data.data_quality | Removed duplicates: 15 -> 11
+2026-01-14 00:52:26 | INFO | src.data.data_quality | Removed duplicates: 15 -> 11
+2026-01-14 00:59:40 | INFO | src.data.data_quality | Removed duplicates: 202561 -> 24666
+2026-01-14 01:00:30 | INFO | src.data.data_quality | Removed duplicates: 202561 -> 24666
+2026-01-14 01:57:09 | INFO | src.data.data_quality | Removed duplicates: 202561 -> 24666
+2026-01-14 01:57:35 | INFO | src.data.data_quality | Removed duplicates: 202561 -> 24666
+2026-01-14 01:58:05 | INFO | src.data.data_quality | Removed duplicates: 202561 -> 24666
+2026-01-14 02:14:30 | INFO | src.data.data_quality | Removed duplicates: 701528 -> 640318
+2026-01-14 02:23:47 | INFO | src.data.data_quality | Removed duplicates: 701528 -> 640318
+2026-01-14 02:34:02 | INFO | src.data.data_quality | Removed duplicates: 701528 -> 640318
+2026-01-14 02:37:46 | INFO | src.data.data_quality | Removed duplicates: 701528 -> 1
+2026-01-14 02:38:19 | WARNING | src.data.data_quality | remove_duplicates: text column 'review_text' not found; skipping.
+2026-01-14 03:16:23 | INFO | src.data.data_quality | Removed duplicates: 701528 -> 640318
+2026-01-14 03:21:03 | INFO | src.data.data_quality | Removed duplicates: 701528 -> 640318
+2026-01-14 03:21:37 | INFO | src.models.sentiment_model | Loading sentiment pipeline. model=cardiffnlp/twitter-roberta-base-sentiment-latest device=cpu max_length=256
+2026-01-14 03:21:39 | INFO | src.models.sentiment_model | Sentiment model loaded successfully.
+2026-01-14 03:24:02 | INFO | src.data.data_quality | Removed duplicates: 701528 -> 640318
+2026-01-14 03:24:25 | INFO | src.models.sentiment_model | Loading sentiment pipeline. model=cardiffnlp/twitter-roberta-base-sentiment-latest device=cpu max_length=256
+2026-01-14 03:24:28 | INFO | src.models.sentiment_model | Sentiment model loaded successfully.
+2026-01-14 03:24:28 | INFO | src.models.sentiment_model | Starting sentiment inference on 3000 texts (batch_size=32).
+2026-01-14 03:26:14 | INFO | src.models.sentiment_model | Inference progress: 640/3000 texts
+2026-01-14 03:28:15 | INFO | src.models.sentiment_model | Inference progress: 1280/3000 texts
+2026-01-14 03:29:49 | INFO | src.models.sentiment_model | Inference progress: 1920/3000 texts
+2026-01-14 03:31:12 | INFO | src.models.sentiment_model | Inference progress: 2560/3000 texts
+2026-01-14 03:32:31 | INFO | src.models.sentiment_model | Inference progress: 3000/3000 texts
+2026-01-14 03:32:31 | INFO | src.models.sentiment_model | Inference completed successfully.
+2026-01-14 04:19:47 | INFO | src.data.data_quality | Removed duplicates: 701528 -> 640318
+2026-01-14 04:20:10 | INFO | src.models.sentiment_model | Loading sentiment pipeline. model=cardiffnlp/twitter-roberta-base-sentiment-latest device=cpu max_length=256
+2026-01-14 04:20:13 | INFO | src.models.sentiment_model | Sentiment model loaded successfully.
+2026-01-14 04:20:13 | INFO | src.models.sentiment_model | Starting sentiment inference on 3000 texts (batch_size=32).
+2026-01-14 04:21:55 | INFO | src.models.sentiment_model | Inference progress: 640/3000 texts
+2026-01-14 04:23:51 | INFO | src.models.sentiment_model | Inference progress: 1280/3000 texts
+2026-01-14 04:25:16 | INFO | src.models.sentiment_model | Inference progress: 1920/3000 texts
+2026-01-14 04:26:37 | INFO | src.models.sentiment_model | Inference progress: 2560/3000 texts
+2026-01-14 04:27:50 | INFO | src.models.sentiment_model | Inference progress: 3000/3000 texts
+2026-01-14 04:27:50 | INFO | src.models.sentiment_model | Inference completed successfully.
+2026-01-14 14:40:03 | INFO | src.data.data_quality | Removed duplicates: 701528 -> 640318
+2026-01-14 14:40:53 | INFO | src.models.sentiment_model | Loading sentiment pipeline. model=cardiffnlp/twitter-roberta-base-sentiment-latest device=cpu max_length=256
+2026-01-14 14:41:06 | INFO | src.models.sentiment_model | Sentiment model loaded successfully.
+2026-01-14 14:41:06 | INFO | src.models.sentiment_model | Starting sentiment inference on 2000 texts (batch_size=32).
+2026-01-14 14:42:48 | INFO | src.models.sentiment_model | Inference progress: 640/2000 texts
+2026-01-14 14:44:40 | INFO | src.models.sentiment_model | Inference progress: 1280/2000 texts
+2026-01-14 14:46:01 | INFO | src.models.sentiment_model | Inference progress: 1920/2000 texts
+2026-01-14 14:46:10 | INFO | src.models.sentiment_model | Inference progress: 2000/2000 texts
+2026-01-14 14:46:10 | INFO | src.models.sentiment_model | Inference completed successfully.
+2026-01-14 14:54:57 | INFO | src.data.data_quality | Removed duplicates: 701528 -> 640318
+2026-01-14 14:55:56 | INFO | src.models.sentiment_model | Loading sentiment pipeline. model=cardiffnlp/twitter-roberta-base-sentiment-latest device=cpu max_length=256
+2026-01-14 14:56:05 | INFO | src.models.sentiment_model | Sentiment model loaded successfully.
+2026-01-14 14:56:05 | INFO | src.models.sentiment_model | Starting sentiment inference on 1000 texts (batch_size=32).
+2026-01-14 14:57:44 | INFO | src.models.sentiment_model | Inference progress: 640/1000 texts
+2026-01-14 14:58:41 | INFO | src.models.sentiment_model | Inference progress: 1000/1000 texts
+2026-01-14 14:58:41 | INFO | src.models.sentiment_model | Inference completed successfully.
+2026-01-14 15:02:59 | INFO | src.models.sentiment_model | Loading sentiment pipeline. model=cardiffnlp/twitter-roberta-base-sentiment-latest device=cpu max_length=256
+2026-01-14 15:03:12 | INFO | src.models.sentiment_model | Sentiment model loaded successfully.
+2026-01-14 15:11:12 | INFO | src.data.data_quality | Removed duplicates: 701528 -> 640318
+2026-01-14 15:11:40 | INFO | src.models.sentiment_model | Loading sentiment pipeline. model=cardiffnlp/twitter-roberta-base-sentiment-latest device=cpu max_length=256
+2026-01-14 15:11:53 | INFO | src.models.sentiment_model | Sentiment model loaded successfully.
+2026-01-14 15:11:53 | INFO | src.models.sentiment_model | Starting sentiment inference on 1000 texts (batch_size=32).
+2026-01-14 15:13:34 | INFO | src.models.sentiment_model | Inference progress: 640/1000 texts
+2026-01-14 15:14:36 | INFO | src.models.sentiment_model | Inference progress: 1000/1000 texts
+2026-01-14 15:14:36 | INFO | src.models.sentiment_model | Inference completed successfully.
+2026-01-14 15:19:33 | INFO | src.models.sentiment_model | Loading sentiment pipeline. model=cardiffnlp/twitter-roberta-base-sentiment-latest device=cpu max_length=256
+2026-01-14 15:19:40 | INFO | src.models.sentiment_model | Sentiment model loaded successfully.
+2026-01-14 15:19:40 | INFO | src.models.sentiment_model | Starting sentiment inference on 500 texts (batch_size=32).
+2026-01-14 15:21:14 | INFO | src.models.sentiment_model | Inference progress: 500/500 texts
+2026-01-14 15:21:14 | INFO | src.models.sentiment_model | Inference completed successfully.
+2026-01-14 15:57:39 | INFO | src.data.data_quality | Removed duplicates: 701528 -> 640318
+2026-01-14 15:58:11 | INFO | src.models.sentiment_model | Loading sentiment pipeline. model=cardiffnlp/twitter-roberta-base-sentiment-latest device=cpu max_length=256
+2026-01-14 15:58:14 | INFO | src.models.sentiment_model | Sentiment model loaded successfully.
+2026-01-14 15:58:14 | INFO | src.models.sentiment_model | Starting sentiment inference on 1500 texts (batch_size=32).
+2026-01-14 15:59:58 | INFO | src.models.sentiment_model | Inference progress: 640/1500 texts
+2026-01-14 16:01:59 | INFO | src.models.sentiment_model | Inference progress: 1280/1500 texts
+2026-01-14 16:02:32 | INFO | src.models.sentiment_model | Inference progress: 1500/1500 texts
+2026-01-14 16:02:32 | INFO | src.models.sentiment_model | Inference completed successfully.
+2026-01-14 16:16:45 | INFO | src.data.data_quality | Removed duplicates: 701528 -> 640318
+2026-01-14 16:17:21 | INFO | src.models.sentiment_model | Loading sentiment pipeline. model=cardiffnlp/twitter-roberta-base-sentiment-latest device=cpu max_length=256
+2026-01-14 16:17:25 | INFO | src.models.sentiment_model | Sentiment model loaded successfully.
+2026-01-14 16:17:25 | INFO | src.models.sentiment_model | Starting sentiment inference on 1000 texts (batch_size=32).
+2026-01-14 16:19:16 | INFO | src.models.sentiment_model | Inference progress: 640/1000 texts
+2026-01-14 16:20:20 | INFO | src.models.sentiment_model | Inference progress: 1000/1000 texts
+2026-01-14 16:20:20 | INFO | src.models.sentiment_model | Inference completed successfully.

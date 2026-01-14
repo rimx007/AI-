@@ -1,0 +1,55 @@
+data:
+  train_test_split: 0.2
+  validation_split: 0.1
+  random_seed: 42
+  text_column: "review_text"
+  rating_column: "rating"
+  recommend_column: "doRecommend"
+  timestamp_column: "timestamp"
+  verified_column: "verified_purchase"
+  helpful_votes_column: "helpful_votes"
+  total_votes_column: "total_votes"
+  product_id_column: "product_id"
+  reviewer_id_column: "reviewer_id"
+
+models:
+  transformer:
+    name: "microsoft/deberta-v3-base"
+    max_length: 256
+    batch_size: 16
+    learning_rate: 2e-5
+    epochs: 3
+    warmup_ratio: 0.06
+    weight_decay: 0.01
+
+  bilstm:
+    hidden_dim: 256
+    num_layers: 2
+    dropout: 0.4
+
+  ensemble:
+    use_stacking: true
+    voting_weights: [0.45, 0.30, 0.25]
+
+features:
+  use_linguistic: true
+  use_temporal: true
+  use_social: true
+  use_aspect: true
+
+evaluation:
+  cv_folds: 5
+  confidence_level: 0.95
+  statistical_tests: true
+  cost_fn_weight: 2.0
+  top_k: 3
+
+tracking:
+  mlflow:
+    enabled: true
+    experiment_name: "absa_multitask"
+    tracking_uri: "mlruns"  # TODO: set to remote URI for team use
+
+api:
+  host: "0.0.0.0"
+  port: 8000
